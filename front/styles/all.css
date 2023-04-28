@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: lightpink;
+}
+
+.Outmain {
+    scroll-behavior: smooth;
+    /* display: grid; */
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 10px;
+    margin-top: 30px;
+    background-color: darkseagreen;
+    color: black;
+    /* display: grid; */
+    width: auto;
+}
+
+.navbar a.NICE {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar a.NICE:hover {
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+.main>p {
+    cursor: pointer;
+    color: darkorange;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+    border: 2px solid black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #704370;
+    text-shadow: 2px 2px pink;
+}
+
+.scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 100px;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+}
+
+.scrollToTopButton:hover {
+    background: red;
+}
+
+.picskill {
+    margin: 50px;
+}
+
+#Experience>.headd>li {
+    padding: 20px;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+    color: darkblue;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+#Experience>.body>p {
+    font-size: larger;
+}
+
+.body>p>a,
+.body>div>p>a {
+    text-decoration: none;
+    color: blue;
+}
+
+.typewriter {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 100px;
+    margin-top: 50px;
+    background: linear-gradient(#FC466B, #3F5EFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.9px black;
+}
+
+#Me>.Img {
+    margin-left: 100px;
+}
+
+.content {
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: x-large;
+}
