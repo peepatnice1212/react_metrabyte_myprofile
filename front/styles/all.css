@@ -5,7 +5,7 @@ body {
 
 .Outmain {
     scroll-behavior: smooth;
-    /* display: grid; */
+    display: grid;
 }
 
 .navbar {
@@ -37,8 +37,8 @@ body {
     margin-top: 30px;
     background-color: darkseagreen;
     color: black;
-    /* display: grid; */
-    width: auto;
+    display: grid;
+    width: 100%;
 }
 
 .navbar a.NICE {
